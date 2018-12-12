@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InfiniteFlightConnect_Example' do
+  pod 'InfiniteFlightConnect', :path => '../'
+
+  target 'InfiniteFlightConnect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
