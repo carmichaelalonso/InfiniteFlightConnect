@@ -1,0 +1,22 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - InfiniteFlightConnect (0.1.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - SwiftSocket
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - InfiniteFlightConnect (from `../`)
+
+EXTERNAL SOURCES:
+  InfiniteFlightConnect:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  InfiniteFlightConnect: 4afc4de30a97340218c5be09ff902b5546d36237
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+
+PODFILE CHECKSUM: a623b6879d0e3cadceea0fa124edbf70a0bf06ed
+
+COCOAPODS: 1.4.0

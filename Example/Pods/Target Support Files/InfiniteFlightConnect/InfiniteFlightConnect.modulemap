@@ -1,0 +1,6 @@
+framework module InfiniteFlightConnect {
+  umbrella header "InfiniteFlightConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}

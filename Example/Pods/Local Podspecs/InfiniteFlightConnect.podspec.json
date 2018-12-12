@@ -1,0 +1,30 @@
+{
+  "name": "InfiniteFlightConnect",
+  "version": "0.1.0",
+  "summary": "A short description of InfiniteFlightConnect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/carmichaelalonso/InfiniteFlightConnect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "carmichaelalonso": "cameron@carmichaelalonso.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/carmichaelalonso/InfiniteFlightConnect.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "InfiniteFlightConnect/Classes/**/*",
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "~> 7.6.0"
+    ],
+    "SwiftSocket": [
+
+    ]
+  }
+}
